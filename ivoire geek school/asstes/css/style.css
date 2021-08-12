@@ -1,0 +1,394 @@
+* {
+    box-sizing: content-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img {
+    height: 150px;
+}
+
+.row .side-nav img {
+    width: 100%;
+    border-radius: 110%;
+    margin-top: 1.6rem;
+    -webkit-border-radius: 110%;
+    -moz-border-radius: 110%;
+    -ms-border-radius: 110%;
+    -o-border-radius: 110%;
+}
+
+p {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.row {
+    display: flex;
+}
+
+.row>div {
+    float: left;
+    color: azure;
+    height: 800PX;
+    padding: 10px;
+}
+
+.side-nav {
+    width: 15%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #173459;
+}
+
+.content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url();
+    height: 100vh;
+    background-size: cover;
+    background-position-y: center;
+    width: 85%;
+}
+
+.side-nav>ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 175%;
+}
+
+.side-nav>ul>li>a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+center {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+center {
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+center span {
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.icon .un {
+    padding: 15px;
+}
+
+.icon .un {
+    width: 10px;
+    height: 10px;
+    color: #ff0000;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), black;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.icon .un #dp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.menu li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#dp {
+    width: 25px;
+    color: #ff0000;
+}
+
+#dip {
+    height: 25px;
+    padding: 10px;
+}
+
+.menu li a {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#wil {
+    color: #ff0000;
+}
+
+#dip {
+    color: #ff0000;
+}
+
+.igs_cv_body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #ff0000;
+    font-size: 14px;
+    line-height: 22px;
+    color: #173459;
+}
+
+.igs_cv_bold {
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.igs_cv_semi-bold {
+    font-weight: 500px;
+    font-size: 16px;
+    color: red;
+}
+
+.igs_cv_resume {
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.igs_cv_resume .igs_cv_resume_left {
+    width: 280px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #173459;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_profile {
+    width: 100%;
+    height: 280px;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_profile img {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./asstes/image/spider.jpg);
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_content {
+    padding: 0 25px;
+}
+
+.igs_cv_resume .igs_cv_title {
+    margin-bottom: 20px;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_bold {
+    color: red;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_regular {
+    color: #b1eaff;
+}
+
+.igs_cv_resume .igs_cv_resume_item {
+    padding: 25px 0;
+    border-bottom: 2px solid #b1eaff;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_item:last-child,
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_item:last-child {
+    border-bottom: 0px;
+}
+
+.igs_cv_resume .igs_cv_resume_left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.igs_cv_resume .igs_cv_resume_left ul li:last-child {
+    margin-bottom: 0;
+}
+
+.igs_cv_resume .igs_cv_resume_left ul li .icon {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), black;
+    color: #0bb5f4;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+
+.igs_cv_resume .icon #svg,
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_hobby ul li #svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.igs_cv_resume .igs_cv_resume_left ul li .igs_cv_data {
+    color: #b1eaff;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_skills ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #b1eaff;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_skills ul li .igs_cv_skill_name {
+    width: 25%;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_skills ul li .igs_cv_skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: black;
+    position: relative;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_skills ul li .igs_cv_skill_per {
+    width: 15%;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_skills ul li .igs_cv_skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #ff0000;
+}
+
+.igs_cv_resume .igs_cv_resume_left .igs_cv_resume_social .igs_cv_semi-bold {
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.igs_cv_resume .igs_cv_resume_right {
+    width: 520px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), #173459;
+    padding: 25px;
+}
+
+.igs_cv_resume .igs_cv_resume_right .igs_cv_bold {
+    color: #0bb5f4;
+}
+
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_work ul,
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_education ul {
+    padding-left: 40px;
+    overflow: hidden;
+    list-style-type: none;
+}
+
+.igs_cv_resume .igs_cv_resume_right ul li {
+    position: relative;
+}
+
+.igs_cv_resume .igs_cv_resume_right ul li .igs_cv_date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.igs_cv_resume .igs_cv_resume_right ul li .igs_cv_info {
+    margin-bottom: 20px;
+}
+
+.igs_cv_resume .igs_cv_resume_right ul li:last-child .igs_cv_info {
+    margin-bottom: 0;
+}
+
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_work ul li:before,
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_education ul li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_work ul li:after,
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_education ul li:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+    background: black;
+}
+
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_hobby ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_hobby ul li {
+    width: 80px;
+    height: 80px;
+    border: 2px solid red;
+    border-radius: 50%;
+    position: relative;
+    background-color: black;
+    list-style-type: none;
+}
+
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_hobby ul li {
+    font-size: 30px;
+}
+
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_hobby ul li:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: -52px;
+    width: 50px;
+    height: 2px;
+    background: red;
+}
+
+.igs_cv_resume .igs_cv_resume_right .igs_cv_resume_hobby ul li:last-child:before {
+    display: none;
+}
+
+#svg {
+    height: 60px;
+    color: #0bb5f4;
+}
+
+#col {
+    color: #0bb5f4;
+    float: left;
+}
